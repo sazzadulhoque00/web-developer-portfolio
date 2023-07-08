@@ -16,12 +16,19 @@ body {
     font-weight: 700;
     padding: 18px 35px;
     align-items: center;
+
+}
+.button-primary:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(145,92,182,0.4);
 }
 
 /* nav related styles */
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -44,4 +51,15 @@ nav li {
 nav a {
     text-decoration: none;
     color: #181818;
+}
+/* Header Related Styles */
+.header{
+    background-color: white;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+.banner .profile-picture{
+    width: 500px;
 }
